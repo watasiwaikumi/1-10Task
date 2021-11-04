@@ -29,9 +29,6 @@ text-align: center;
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
 
 .step-img1 {
   height: 150px;
@@ -78,6 +75,7 @@ footer {
 @media screen and (max-width: 768px){
   .flex{
     display:block;
+    max-width: 90%;
     }
 
     .header {
@@ -88,16 +86,17 @@ footer {
     main {
       width: 100%;
       margin-top: 50px;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
 
-    .step-box {
-      width: 500px;
-      margin-right: 10px;
-      margin-left: 10px;
+    .step-box{
+      width: 90%;
+      margin: 0 auto;
       margin-bottom: 20px;
-
-
+    }
+    .step-box:last-child{
+      margin-bottom: 0;
+    }
     .footer {
       width: 100%;
       height: 50px;
